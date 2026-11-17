@@ -1,0 +1,7 @@
+numpy>=1.26,<3
+pandas>=2.0,<3
+requests>=2.31
+psutil>=5.9
+tqdm>=4.66
+transformers>=4.40,<5
+# Install PyTorch separately (see README for CPU/CUDA options).

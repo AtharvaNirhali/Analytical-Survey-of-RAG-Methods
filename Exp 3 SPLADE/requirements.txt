@@ -1,0 +1,6 @@
+sentence-transformers>=5.2,<7
+beir>=2.0,<3
+scipy
+numpy
+pandas
+tqdm

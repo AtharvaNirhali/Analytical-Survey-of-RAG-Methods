@@ -1,0 +1,6 @@
+# Python 3.11, install CUDA PyTorch first as shown in README
+numpy>=1.26,<3
+requests>=2.31,<3
+tqdm>=4.66
+transformers>=4.44,<5
+beir==2.2.0
