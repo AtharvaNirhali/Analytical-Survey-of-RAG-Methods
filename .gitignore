@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments and credentials
+.env
+.env.*
+!.env.example
+venv/
+.venv/
+env/
+*.key
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Downloaded BEIR data and large model/index artifacts
+**/data/scidocs/
+**/colbert_indexes/
+**/colbert_experiments/
+**/.cache/
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+*.bin
+*.onnx
+
+# Corpus embedding/vector caches (rebuild using scripts)
+*.npy
+*.npz
+
+# Generated large data exports (keep small metrics/protocol JSON files)
+**/results/**/ranked_papers.csv
+**/results/**/collection.tsv
+**/results/**/hypothetical_documents.jsonl
+
+# TREC files under results may be useful for reproducibility; retain intentionally.
+# BlendedRAG/inputs/*.trec files are input artifacts, not automatically ignored.
