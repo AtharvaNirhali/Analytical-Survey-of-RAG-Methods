@@ -13,9 +13,9 @@ Exp 1 BM25/
 ├── README.md
 ├── requirements.txt
 ├── run_bm25.py
-├── data/                 # generated/downloaded; do not commit
+├── data/                 # generated/downloaded;
 │   └── scidocs/
-└── results/              # generated; commit only small summary files if desired
+└── results/              # generated; 
     └── bm25/
 ```
 
